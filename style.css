@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(25, 25, 25);
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.moves button {
+    margin: 10px;
+}
+
+.move-icon {
+    width: 50px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 3px solid white ;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+} 
+
+.results {
+    font-weight: bold;
+}
+
+.reset-score-button {
+    border-style:none ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
